@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Hide Ads on X.com",
+  "version": "1.0",
+  "description": "hide ad elements on X.com.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://x.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
