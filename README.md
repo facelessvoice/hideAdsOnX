@@ -8,6 +8,6 @@ Load temp Add-on
 Select manifest.json
 
 #### TODO
-Actually publish in mozilla extension to avoid manual load.
+Actually publish in mozilla extension to avoid manual load.\s
 UPDATE: Awaiting for approval , approx 24h
 
